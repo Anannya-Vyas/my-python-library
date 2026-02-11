@@ -1,25 +1,79 @@
-# StatTools
+# 📊 StatTools
 
-StatTools is a lightweight statistics library built from scratch in Python.
+StatTools is a lightweight Python statistics library that provides basic descriptive statistics and outlier detection utilities.
 
-## Features
+It is designed for learning, projects, and simple statistical analysis without heavy dependencies.
+
+---
+
+## ✨ Features
 
 - Mean
 - Median
 - Percentile
 - Interquartile Range (IQR)
-- Outlier Detection
+- Outlier detection using IQR method
 
-## Installation (Local)
+---
 
-Run inside the project folder:
+## 📦 Installation
 
-pip install .
+Clone the repository:
 
-## Example
+```bash
+git clone https://github.com/Anannya-Vyas/my-python-library.git
+cd my-python-library
+Install in editable mode:
 
-```python
-from stattools import mean
+pip install -e .
+🚀 Usage
+from stattools import mean, median, percentile, iqr, detect_outliers_iqr
 
-data = [10, 20, 30]
-print(mean(data))
+data = [10, 20, 30, 40, 100]
+
+print("Mean:", mean(data))
+print("Median:", median(data))
+print("50th Percentile:", percentile(data, 50))
+print("IQR:", iqr(data))
+print("Outliers:", detect_outliers_iqr(data))
+📘 Example
+data = [5, 7, 8, 10, 12, 100]
+
+# Detect outliers
+outliers = detect_outliers_iqr(data)
+print(outliers)
+Output:
+
+[100]
+🧪 Running Tests
+python -m pytest
+All tests should pass successfully.
+
+📁 Project Structure
+stattools/
+    __init__.py
+    descriptive.py
+    outliers.py
+tests/
+    test_stattools.py
+setup.py
+README.md
+👩‍💻 Author
+Anannya Vyas
+GitHub: https://github.com/Anannya-Vyas
+
+📄 License
+This project is open-source and available under the MIT License.
+
+
+---
+
+# 🎯 After You Paste This
+
+1. Save README.md  
+2. Run:
+
+```bash
+git add README.md
+git commit -m "Improve README with usage and documentation"
+git push
