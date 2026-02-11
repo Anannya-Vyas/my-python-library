@@ -1,3 +1,5 @@
+![PyPI version](https://img.shields.io/pypi/v/stattools-anannya)
+![License](https://img.shields.io/pypi/l/stattools-anannya)
 ![Python](https://img.shields.io/badge/python-3.8%2B-blue)
 ![License](https://img.shields.io/badge/license-MIT-green)
 ![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
