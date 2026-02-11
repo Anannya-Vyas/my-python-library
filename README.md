@@ -8,6 +8,7 @@
 StatTools is a lightweight Python statistics library that provides basic descriptive statistics and outlier detection utilities.
 
 It is designed for learning, projects, and simple statistical analysis without heavy dependencies.
+https://pypi.org/project/stattools-anannya/0.1.6/
 
 ---
 
