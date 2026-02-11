@@ -23,10 +23,19 @@ Clone the repository:
 ```bash
 git clone https://github.com/Anannya-Vyas/my-python-library.git
 cd my-python-library
+```
+
 Install in editable mode:
 
+```bash
 pip install -e .
-🚀 Usage
+```
+
+---
+
+## 🚀 Usage
+
+```python
 from stattools import mean, median, percentile, iqr, detect_outliers_iqr
 
 data = [10, 20, 30, 40, 100]
@@ -36,20 +45,41 @@ print("Median:", median(data))
 print("50th Percentile:", percentile(data, 50))
 print("IQR:", iqr(data))
 print("Outliers:", detect_outliers_iqr(data))
-📘 Example
+```
+
+---
+
+## 📘 Example
+
+```python
 data = [5, 7, 8, 10, 12, 100]
 
 # Detect outliers
 outliers = detect_outliers_iqr(data)
 print(outliers)
+```
+
 Output:
 
+```
 [100]
-🧪 Running Tests
+```
+
+---
+
+## 🧪 Running Tests
+
+```bash
 python -m pytest
+```
+
 All tests should pass successfully.
 
-📁 Project Structure
+---
+
+## 📁 Project Structure
+
+```
 stattools/
     __init__.py
     descriptive.py
@@ -58,22 +88,17 @@ tests/
     test_stattools.py
 setup.py
 README.md
-👩‍💻 Author
-Anannya Vyas
-GitHub: https://github.com/Anannya-Vyas
-
-📄 License
-This project is open-source and available under the MIT License.
-
+```
 
 ---
 
-# 🎯 After You Paste This
+## 👩‍💻 Author
 
-1. Save README.md  
-2. Run:
+Anannya Vyas  
+GitHub: https://github.com/Anannya-Vyas
 
-```bash
-git add README.md
-git commit -m "Improve README with usage and documentation"
-git push
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
