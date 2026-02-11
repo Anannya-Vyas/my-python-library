@@ -1,3 +1,7 @@
+![Python](https://img.shields.io/badge/python-3.8%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+![Tests](https://img.shields.io/badge/tests-passing-brightgreen)
+
 # 📊 StatTools
 
 StatTools is a lightweight Python statistics library that provides basic descriptive statistics and outlier detection utilities.
